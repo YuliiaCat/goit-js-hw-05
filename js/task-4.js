@@ -1,7 +1,7 @@
 'use strict';
 
 const getTotalBalanceByGender = (users, gender) => {
-  return totalCount = users
+  const totalCount = users
     .map(user => user.balance);
 
 }
