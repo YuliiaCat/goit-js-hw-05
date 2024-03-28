@@ -2,7 +2,7 @@
 
 const getTotalBalanceByGender = (users, gender) => {
   return totalCount = users
-    .map(user => user.balance)
+    .map(user => user.balance);
 
 }
 

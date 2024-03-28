@@ -1,7 +1,7 @@
 'use strict';
 
 const sortByDescendingFriendCount = (users) => {
-  return users.toSorted((firstUser, secondUser) => firstUser.friends.length - secondUser.friends.length);
+  return users.sort((firstUser, secondUser) => firstUser.friends.length - secondUser.friends.length);
 }
 
 console.log(
