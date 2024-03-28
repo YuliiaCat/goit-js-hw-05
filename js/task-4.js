@@ -1,11 +1,9 @@
 'use strict';
 
 const getTotalBalanceByGender = (users, gender) => {
-  const totalCount = users
+  return totalCount = users
     .reduce((prevValue, count) => prevValue + count.balance, 0)
     .filter(client => client.gender === gender);
-
-    return totalCount;
 }
 
 const clients = [
